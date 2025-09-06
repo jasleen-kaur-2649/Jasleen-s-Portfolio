@@ -10,8 +10,8 @@ body {
   flex-wrap: wrap;
   width: 100%;
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
   justify-content: space-around;
   padding: 20px;
   z-index: 1000;
@@ -40,16 +40,10 @@ body {
 .hover-effect:hover::after {
   transform: scaleX(1);
 }
-img{
-  width: 100%;
-}
-
 footer {
   font-size: 14px;
   padding: 5px;
-  position: absolute;
   width: 100%;
-  left: 0;
   text-align: center;
   background-color: blueviolet;
 }
